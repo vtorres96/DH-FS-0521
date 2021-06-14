@@ -24,6 +24,18 @@ app.get('/cumprimentar/:nome', (req,res) => {
 // deverá retornar ele, ou, caso recebe os dois parâmetros terá que somar os dois e retornar
 // o resultado.
 
+// se receber 1º retorná-lo, senão, caso receba os dois parâmetros efetuar a soma
+app.get('/calcular/:numero1/:numero2?', (req, res) => {
+  let { numero1, numero2 } = req.params
+
+  if(numero2){
+    let resultado = parseInt(numero1) + parseInt(numero2)
+    res.send('O resultado da soma é: ' + resultado)
+  } else {
+    res.send(numero1)
+  }
+})
+
 // Utilizarem o método listen para que com um console.log
 // consigam exibir a mensagem: Servidor rodando na porta 3000
 app.listen(3000, () => { 
