@@ -1,0 +1,23 @@
+/* HEADER */
+header {
+  height: 10%;
+  width: 100%;
+  background-color: #ffb90f;
+  margin-top: 70px;
+}
+
+/* referenciando a uma classe
+para isso utilizamos .nome-da-classe no html*/
+/* .img-200 {
+  width: 200px;
+} */
+
+/* referenciando a um id
+para isso utilizamos #id-do-elemento no html*/
+/* #img-header {
+  width: 200px;
+} */
+
+header nav img {
+  width: 200px;
+}
