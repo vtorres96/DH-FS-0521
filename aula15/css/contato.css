@@ -1,0 +1,57 @@
+
+.form-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main h1 {
+  font-size: 38px;
+}
+
+main p { 
+  font-size: 22px;
+}
+
+.form-group { 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-inputs {
+  display: flex;
+}
+
+.form-inputs input {
+  height: 20px;
+  width: 300px;
+}
+
+.text-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+
+
+form textarea { 
+  resize: none;
+  width: 635px;
+}
+
+.form-contact button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: #ffb90f;
+}
